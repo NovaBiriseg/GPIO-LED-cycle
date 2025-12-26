@@ -1,0 +1,29 @@
+# STM32CubeIDE
+/.metadata/
+*.launch
+*.log
+*.project
+*.cproject
+*.mxproject
+*.bin
+*.elf
+*.hex
+*.map
+*.lst
+*.axf
+*.o
+*.d
+
+# Object and build folders
+/Debug/
+/Release/
+/.dep/
+
+# Settings and index files
+/.settings/
+.idea/
+.vscode/
+
+# Generated code
+/Core/Inc/*.ioc.*
+/Drivers/*/*.a
